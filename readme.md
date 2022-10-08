@@ -1,4 +1,5 @@
-# [Architecting for Reliability on AWS](https://pluralsight.pxf.io/QkzaP)
+**iaac using cloud formation to have automated infrastructure
+login to your aws cli account then start
 
 [Building Virtual Private Cloud (VPC) Networks](m4)
 

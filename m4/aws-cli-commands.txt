@@ -9,9 +9,11 @@ aws ec2 associate-address --instance-id i-036a00e797649cba5 --allocation-id eipa
 aws ec2 terminate-instances --instance-ids i-036a00e797649cba5
 aws ec2 release-address --allocation-id eipalloc-0016c8c2129a23448
 
+
 aws ec2 describe-nat-gateways
 aws ec2 delete-nat-gateway --nat-gateway-id nat-0827194f97b639e0d
 aws ec2 release-address --allocation-id eipalloc-0e196ad93b197e07f
+
 
 aws ec2 create-transit-gateway
 aws ec2 create-vpc --cidr-block 172.27.0.0/16
